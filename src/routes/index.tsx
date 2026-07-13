@@ -139,21 +139,28 @@ function Hero() {
             className="relative aspect-square w-[min(80vw,600px)]"
             style={{ transform: `translateY(${p * -40}px) scale(${1 + p * 0.05})` }}
           >
-            <div className="absolute inset-0 rounded-full bg-[#f2f2f2] shadow-[0_50px_140px_-40px_rgba(0,0,0,0.4)]" />
-            <img
-              src={leila}
-              alt="Leila Hormozi"
-              className="absolute inset-0 w-full h-full object-cover rounded-full grayscale"
-            />
+            <div className="absolute inset-0 rounded-full bg-[#f2f2f2] shadow-[0_50px_140px_-40px_rgba(0,0,0,0.4)] overflow-hidden">
+              <div className="grid grid-cols-2 grid-rows-2 w-full h-full">
+                {[leila, christina, riyam, codie].map((src, i) => (
+                  <img
+                    key={i}
+                    src={src}
+                    alt=""
+                    aria-hidden
+                    className="w-full h-full object-cover grayscale"
+                  />
+                ))}
+              </div>
+            </div>
 
             <div className="absolute top-6 right-[-20px] md:right-[-60px] animate-float-slow">
               <span className="chip">Discipline</span>
             </div>
             <div className="absolute bottom-16 left-[-20px] md:left-[-70px] animate-float-slower">
-              <span className="chip">Ownership</span>
+              <span className="chip">Courage</span>
             </div>
             <div className="absolute top-1/2 right-[-40px] md:right-[-90px] animate-drift">
-              <span className="chip">Today · Birthday</span>
+              <span className="chip">Five Portraits</span>
             </div>
           </div>
 
@@ -164,6 +171,7 @@ function Hero() {
             <span>05</span>
           </div>
         </div>
+
       </div>
 
       <div className="absolute bottom-8 left-8 md:left-14 flex items-center gap-3 text-[11px] uppercase tracking-[0.28em] text-[#666]">
@@ -270,10 +278,11 @@ function Index() {
       <Nav />
       <Hero />
       <div id="gallery">
-        {women.slice(1).map((w, i) => (
-          <WomanSection key={w.name} woman={w} reverse={i % 2 === 0} />
+        {women.map((w, i) => (
+          <WomanSection key={w.name} woman={w} reverse={i % 2 === 1} />
         ))}
       </div>
+
       <Quotes />
       <About />
       <Footer />
