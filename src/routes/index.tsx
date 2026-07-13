@@ -21,7 +21,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "An editorial, monochrome tribute to the women who inspired me this year.",
+          "A monochrome editorial tribute to the women whose work, discipline and mindset changed the way I think.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
