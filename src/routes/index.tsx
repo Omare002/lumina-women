@@ -159,9 +159,8 @@ function Hero() {
             <div className="absolute bottom-16 left-[-20px] md:left-[-70px] animate-float-slower">
               <span className="chip">Courage</span>
             </div>
-            <div className="absolute top-1/2 right-[-40px] md:right-[-90px] animate-drift">
-              <span className="chip">Five Portraits</span>
-            </div>
+
+
           </div>
 
           {/* Right side index rail */}
