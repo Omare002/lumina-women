@@ -6,7 +6,7 @@ import leila from "@/assets/leila-hormozi.jpg";
 import christina from "@/assets/christina-koch.jpg";
 import riyam from "@/assets/riyam-ojaimi.jpg";
 import codie from "@/assets/codie-sanchez.jpg";
-import marie from "@/assets/marie-curie.jpg";
+import marie from "@/assets/marie-curie.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -81,7 +81,7 @@ const women: Woman[] = [
   },
   {
     name: "Marie Curie",
-    image: marie,
+    image: marie.url,
     quote:
       "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
     category: "Intelligence",
