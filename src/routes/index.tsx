@@ -47,7 +47,7 @@ const women: Woman[] = [
     category: "Discipline",
     chips: ["Discipline", "Ownership", "Consistency"],
     index: "01",
-    total: "05",
+    total: "04",
   },
   {
     name: "Christina Koch",
@@ -57,7 +57,7 @@ const women: Woman[] = [
     category: "Courage",
     chips: ["Courage", "Curiosity"],
     index: "02",
-    total: "05",
+    total: "04",
   },
   {
     name: "Riyam Ojaimi",
@@ -67,7 +67,7 @@ const women: Woman[] = [
     category: "Resilience",
     chips: ["Resilience", "Voice", "Conviction"],
     index: "03",
-    total: "05",
+    total: "04",
   },
   {
     name: "Codie Sanchez",
@@ -77,17 +77,7 @@ const women: Woman[] = [
     category: "Independence",
     chips: ["Leadership", "Clarity"],
     index: "04",
-    total: "05",
-  },
-  {
-    name: "Marie Curie",
-    image: marie.url,
-    quote:
-      "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
-    category: "Intelligence",
-    chips: ["Intelligence", "Curiosity", "Rigor"],
-    index: "05",
-    total: "05",
+    total: "04",
   },
 ];
 
