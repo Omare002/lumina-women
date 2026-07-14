@@ -6,7 +6,7 @@ import leila from "@/assets/leila-hormozi.jpg";
 import christina from "@/assets/christina-koch.jpg";
 import riyam from "@/assets/riyam-ojaimi.jpg";
 import codie from "@/assets/codie-sanchez.jpg";
-import marie from "@/assets/marie-curie.jpg.asset.json";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -47,7 +47,7 @@ const women: Woman[] = [
     category: "Discipline",
     chips: ["Discipline", "Ownership", "Consistency"],
     index: "01",
-    total: "05",
+    total: "04",
   },
   {
     name: "Christina Koch",
@@ -57,7 +57,7 @@ const women: Woman[] = [
     category: "Courage",
     chips: ["Courage", "Curiosity"],
     index: "02",
-    total: "05",
+    total: "04",
   },
   {
     name: "Riyam Ojaimi",
@@ -67,7 +67,7 @@ const women: Woman[] = [
     category: "Resilience",
     chips: ["Resilience", "Voice", "Conviction"],
     index: "03",
-    total: "05",
+    total: "04",
   },
   {
     name: "Codie Sanchez",
@@ -77,17 +77,7 @@ const women: Woman[] = [
     category: "Independence",
     chips: ["Leadership", "Clarity"],
     index: "04",
-    total: "05",
-  },
-  {
-    name: "Marie Curie",
-    image: marie.url,
-    quote:
-      "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
-    category: "Intelligence",
-    chips: ["Intelligence", "Curiosity", "Rigor"],
-    index: "05",
-    total: "05",
+    total: "04",
   },
 ];
 
@@ -167,7 +157,7 @@ function Hero() {
           <div className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 flex-col items-center gap-4 text-[11px] tracking-[0.28em] text-[#666]">
             <span>01</span>
             <span className="w-px h-24 bg-[#eaeaea]" />
-            <span>05</span>
+            <span>04</span>
           </div>
         </div>
 
