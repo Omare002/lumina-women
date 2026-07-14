@@ -157,7 +157,7 @@ function Hero() {
           <div className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 flex-col items-center gap-4 text-[11px] tracking-[0.28em] text-[#666]">
             <span>01</span>
             <span className="w-px h-24 bg-[#eaeaea]" />
-            <span>05</span>
+            <span>04</span>
           </div>
         </div>
 
