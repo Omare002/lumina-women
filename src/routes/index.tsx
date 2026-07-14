@@ -219,7 +219,7 @@ function About() {
           <span className="w-8 h-px bg-[#111]" />
         </div>
         <p className="font-display text-[clamp(1.75rem,3.4vw,2.8rem)] leading-[1.25] tracking-[-0.02em] text-[#111]">
-          Five portraits. Five decisions to become. A quiet, personal archive of the women whose thinking rearranged mine this year — assembled the way you'd hang a small show in a very white room.
+          A&nbsp; personal archive of the women whose thinking rearranged mine this year — and maybe they changed yours.
         </p>
       </div>
     </section>
