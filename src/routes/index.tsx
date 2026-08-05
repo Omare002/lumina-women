@@ -87,6 +87,7 @@ const women: Woman[] = [
       "You can never win by playing it safe. Take risks and think outside the box.",
     category: "Risk",
     chips: ["Risk", "Genius", "Strategy"],
+    imagePosition: "50% 22%",
     index: "05",
     total: "05",
   },
@@ -101,7 +102,7 @@ function Hero() {
   }, []);
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-32 pb-20">
+    <section id="home" className="scroll-mt-24 relative min-h-screen flex items-center overflow-hidden pt-32 pb-20">
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 flex items-center justify-center select-none"
@@ -141,8 +142,8 @@ function Hero() {
             style={{ transform: `translateY(${p * -40}px) scale(${1 + p * 0.05})` }}
           >
             <div className="absolute inset-0 rounded-full bg-[#f2f2f2] shadow-[0_50px_140px_-40px_rgba(0,0,0,0.4)] overflow-hidden">
-              <div className="grid grid-cols-3 grid-rows-2 w-full h-full">
-                {[leila, christina, riyam, codie, judit.url].map((src, i) => (
+              <div className="grid grid-cols-2 grid-rows-2 w-full h-full">
+                {[leila, christina, riyam, codie].map((src, i) => (
                   <img
                     key={i}
                     src={src}
@@ -189,7 +190,7 @@ function Hero() {
 function Quotes() {
   const items = women.map((w) => ({ name: w.name, quote: w.quote }));
   return (
-    <section id="quotes" className="relative py-40 border-t border-[#eaeaea]">
+    <section id="quotes" className="scroll-mt-24 relative py-40 border-t border-[#eaeaea]">
       <div className="max-w-[1200px] mx-auto px-8 md:px-14">
         <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.28em] text-[#666] mb-16">
           <span className="w-8 h-px bg-[#111]" />
@@ -214,7 +215,7 @@ function Quotes() {
 
 function About() {
   return (
-    <section id="about" className="relative py-40 border-t border-[#eaeaea]">
+    <section id="about" className="scroll-mt-24 relative py-40 border-t border-[#eaeaea]">
       <div className="max-w-[1000px] mx-auto px-8 md:px-14 text-center">
         <div className="flex items-center justify-center gap-3 text-[11px] uppercase tracking-[0.28em] text-[#666] mb-10">
           <span className="w-8 h-px bg-[#111]" />
@@ -279,7 +280,7 @@ function Index() {
       <Cursor />
       <Nav />
       <Hero />
-      <div id="gallery">
+      <div id="gallery" className="scroll-mt-24">
         {women.map((w, i) => (
           <WomanSection key={w.name} woman={w} reverse={i % 2 === 1} />
         ))}
