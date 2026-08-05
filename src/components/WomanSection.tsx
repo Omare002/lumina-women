@@ -8,6 +8,7 @@ export interface Woman {
   chips: string[];
   index: string;
   total: string;
+  imagePosition?: string;
 }
 
 export function WomanSection({ woman, reverse = false }: { woman: Woman; reverse?: boolean }) {
@@ -107,6 +108,7 @@ export function WomanSection({ woman, reverse = false }: { woman: Woman; reverse
               src={woman.image}
               alt={woman.name}
               className="absolute inset-0 w-full h-full object-cover rounded-full grayscale"
+              style={{ objectPosition: woman.imagePosition ?? "50% 50%" }}
               loading="lazy"
             />
 
