@@ -141,8 +141,8 @@ function Hero() {
             style={{ transform: `translateY(${p * -40}px) scale(${1 + p * 0.05})` }}
           >
             <div className="absolute inset-0 rounded-full bg-[#f2f2f2] shadow-[0_50px_140px_-40px_rgba(0,0,0,0.4)] overflow-hidden">
-              <div className="grid grid-cols-2 grid-rows-2 w-full h-full">
-                {[leila, christina, riyam, codie].map((src, i) => (
+              <div className="grid grid-cols-3 grid-rows-2 w-full h-full">
+                {[leila, christina, riyam, codie, judit.url].map((src, i) => (
                   <img
                     key={i}
                     src={src}
@@ -160,7 +160,9 @@ function Hero() {
             <div className="absolute bottom-16 left-[-20px] md:left-[-70px] animate-float-slower">
               <span className="chip">Courage</span>
             </div>
-
+            <div className="absolute top-1/2 right-[-30px] md:right-[-80px] animate-drift">
+              <span className="chip">Risk</span>
+            </div>
 
           </div>
 
@@ -168,7 +170,7 @@ function Hero() {
           <div className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 flex-col items-center gap-4 text-[11px] tracking-[0.28em] text-[#666]">
             <span>01</span>
             <span className="w-px h-24 bg-[#eaeaea]" />
-            <span>04</span>
+            <span>05</span>
           </div>
         </div>
 
