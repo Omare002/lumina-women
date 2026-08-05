@@ -48,7 +48,7 @@ const women: Woman[] = [
     category: "Discipline",
     chips: ["Discipline", "Ownership", "Consistency"],
     index: "01",
-    total: "04",
+    total: "05",
   },
   {
     name: "Christina Koch",
@@ -58,7 +58,7 @@ const women: Woman[] = [
     category: "Courage",
     chips: ["Courage", "Curiosity"],
     index: "02",
-    total: "04",
+    total: "05",
   },
   {
     name: "Riyam Ojaimi",
@@ -68,7 +68,7 @@ const women: Woman[] = [
     category: "Resilience",
     chips: ["Resilience", "Voice", "Conviction"],
     index: "03",
-    total: "04",
+    total: "05",
   },
   {
     name: "Codie Sanchez",
@@ -78,7 +78,17 @@ const women: Woman[] = [
     category: "Independence",
     chips: ["Leadership", "Clarity"],
     index: "04",
-    total: "04",
+    total: "05",
+  },
+  {
+    name: "Judit Polgár",
+    image: judit.url,
+    quote:
+      "You can never win by playing it safe. Take risks and think outside the box.",
+    category: "Risk",
+    chips: ["Risk", "Genius", "Strategy"],
+    index: "05",
+    total: "05",
   },
 ];
 
