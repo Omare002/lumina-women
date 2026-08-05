@@ -6,7 +6,7 @@ import leila from "@/assets/leila-hormozi.jpg";
 import christina from "@/assets/christina-koch.jpg";
 import riyam from "@/assets/riyam-ojaimi.jpg";
 import codie from "@/assets/codie-sanchez.jpg";
-import judit from "@/assets/judit-polgar.jpg.asset.json";
+import judit from "@/assets/judit-polgar.jpg";
 
 
 export const Route = createFileRoute("/")({
@@ -82,7 +82,7 @@ const women: Woman[] = [
   },
   {
     name: "Judit Polgár",
-    image: judit.url,
+    image: judit,
     quote:
       "You can never win by playing it safe. Take risks and think outside the box.",
     category: "Risk",
