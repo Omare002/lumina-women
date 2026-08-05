@@ -6,6 +6,7 @@ import leila from "@/assets/leila-hormozi.jpg";
 import christina from "@/assets/christina-koch.jpg";
 import riyam from "@/assets/riyam-ojaimi.jpg";
 import codie from "@/assets/codie-sanchez.jpg";
+import judit from "@/assets/judit-polgar.jpg.asset.json";
 
 
 export const Route = createFileRoute("/")({
