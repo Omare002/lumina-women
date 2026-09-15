@@ -1,13 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Link } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import { Nav } from "@/components/Nav";
-import { WomanSection, type Woman } from "@/components/WomanSection";
+import { WomanSection } from "@/components/WomanSection";
+import { women } from "@/data/women";
 import leila from "@/assets/leila-hormozi.jpg";
 import christina from "@/assets/christina-koch.jpg";
 import riyam from "@/assets/riyam-ojaimi.jpg";
 import codie from "@/assets/codie-sanchez.jpg";
-import judit from "@/assets/judit-polgar.jpg";
-import eileen from "@/assets/eileen-gu.jpg";
 
 
 export const Route = createFileRoute("/")({
