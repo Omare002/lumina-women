@@ -8,9 +8,9 @@ export function Nav() {
         <ul className="hidden md:flex items-center gap-10 text-[11px] uppercase tracking-[0.22em] font-light">
           <li><Link to="/" className="opacity-90 hover:opacity-100">Home</Link></li>
           <li><Link to="/women" className="opacity-70 hover:opacity-100">Women</Link></li>
-          <li><Link to="/#gallery" className="opacity-70 hover:opacity-100">Gallery</Link></li>
-          <li><Link to="/#quotes" className="opacity-70 hover:opacity-100">Quotes</Link></li>
-          <li><Link to="/#about" className="opacity-70 hover:opacity-100">About</Link></li>
+          <li><a href="/#gallery" className="opacity-70 hover:opacity-100">Gallery</a></li>
+          <li><a href="/#quotes" className="opacity-70 hover:opacity-100">Quotes</a></li>
+          <li><a href="/#about" className="opacity-70 hover:opacity-100">About</a></li>
         </ul>
         <span className="text-[11px] uppercase tracking-[0.22em] font-light opacity-70 hidden md:block">
 
