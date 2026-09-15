@@ -231,6 +231,16 @@ function Index() {
         {women.map((w, i) => (
           <WomanSection key={w.name} woman={w} reverse={i % 2 === 1} />
         ))}
+        <div className="flex justify-center pb-24 pt-4">
+          <Link
+            to="/women"
+            className="group inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.28em] text-[#666] hover:text-[#111] transition-colors"
+          >
+            <span className="w-10 h-px bg-[#111] group-hover:w-16 transition-all" />
+            View the full index of women
+            <span className="w-10 h-px bg-[#111] group-hover:w-16 transition-all" />
+          </Link>
+        </div>
       </div>
 
       <Quotes />
