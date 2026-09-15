@@ -7,6 +7,7 @@ import christina from "@/assets/christina-koch.jpg";
 import riyam from "@/assets/riyam-ojaimi.jpg";
 import codie from "@/assets/codie-sanchez.jpg";
 import judit from "@/assets/judit-polgar.jpg";
+import eileen from "@/assets/eileen-gu.jpg";
 
 
 export const Route = createFileRoute("/")({
@@ -48,7 +49,7 @@ const women: Woman[] = [
     category: "Discipline",
     chips: ["Discipline", "Ownership", "Consistency"],
     index: "01",
-    total: "05",
+    total: "06",
   },
   {
     name: "Christina Koch",
@@ -58,7 +59,7 @@ const women: Woman[] = [
     category: "Courage",
     chips: ["Courage", "Curiosity"],
     index: "02",
-    total: "05",
+    total: "06",
   },
   {
     name: "Riyam Ojaimi",
@@ -68,7 +69,7 @@ const women: Woman[] = [
     category: "Resilience",
     chips: ["Resilience", "Voice", "Conviction"],
     index: "03",
-    total: "05",
+    total: "06",
   },
   {
     name: "Codie Sanchez",
@@ -78,7 +79,7 @@ const women: Woman[] = [
     category: "Independence",
     chips: ["Leadership", "Clarity"],
     index: "04",
-    total: "05",
+    total: "06",
   },
   {
     name: "Judit Polgár",
@@ -89,7 +90,18 @@ const women: Woman[] = [
     chips: ["Risk", "Genius", "Strategy"],
     imagePosition: "50% 22%",
     index: "05",
-    total: "05",
+    total: "06",
+  },
+  {
+    name: "Eileen Gu",
+    image: eileen,
+    quote:
+      "You can control what you think. You can control how you think, and therefore, you can control who you are. And especially as a young person, I'm 22, so with neuroplasticity on my side, I can literally become exactly who I want to be. How cool is that? How empowering is that?",
+    category: "Self-Mastery",
+    chips: ["Mindset", "Potential", "Self-Mastery"],
+    imagePosition: "50% 35%",
+    index: "06",
+    total: "06",
   },
 ];
 
@@ -171,7 +183,7 @@ function Hero() {
           <div className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 flex-col items-center gap-4 text-[11px] tracking-[0.28em] text-[#666]">
             <span>01</span>
             <span className="w-px h-24 bg-[#eaeaea]" />
-            <span>05</span>
+            <span>06</span>
           </div>
         </div>
 
