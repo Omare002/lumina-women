@@ -9,7 +9,10 @@ export function Nav() {
           <li><a href="#quotes" className="opacity-70 hover:opacity-100">Quotes</a></li>
           <li><a href="#about" className="opacity-70 hover:opacity-100">About</a></li>
         </ul>
-        <span className="text-[11px] uppercase tracking-[0.22em] font-light opacity-70 hidden md:block">MMXXVI</span>
+        <span className="text-[11px] uppercase tracking-[0.22em] font-light opacity-70 hidden md:block">
+
+
+        </span>
       </div>
     </nav>
   );
